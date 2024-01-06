@@ -1,0 +1,804 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    background: #344555;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.25));
+}
+
+header a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+
+.main_hub_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 80px;
+    top: 20px;
+}
+
+.cube_logo {
+    text-align: center;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #293c48;
+    position: relative;
+    bottom: 8px;
+    left: 5px;
+}
+
+.cube_logo h1 {
+    position: relative;
+    left: 1px;
+    top: 11px;
+}
+
+.hub_logo h1 {
+    color: #FFF;
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.25);
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.3px;
+    font-family: 'Just Another Hand Regular';
+}
+
+main {
+    background-color: #546E7A;
+    height: 1200px;
+}
+
+hr {
+    color: white;
+}
+
+.main_form {
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background: #1C2B32;
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.50);
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.main_form .login_logo {
+    color: #FFF;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.social_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    top: 15px;
+}
+
+.google_block {
+    max-width: 35%;
+    min-width: 32%;
+    padding: 10px 25px 5px 25px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid #AAA;
+    background: #1C2B32;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.google_block h2 {
+    color: #FFF;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin: auto;
+    position: relative;
+    bottom: 2.5px;
+}
+
+.google_block img {
+    position: relative;
+    top: 2px;
+}
+
+.facebook_block {
+    max-width: 35%;
+    min-width: 32%;
+    padding: 10px 25px 5px 25px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid #AAA;
+    background: #1C2B32;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.facebook_block h2 {
+    color: #FFF;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin: auto;
+    position: relative;
+    bottom: 2.5px;
+}
+
+.telegram_block {
+    max-width: 35%;
+    min-width: 32%;
+    padding: 10px 25px 5px 25px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid #AAA;
+    background: #1C2B32;
+    text-align: center;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.telegram_block img {
+    position: relative;
+    bottom: 4px;
+    right: 2px;
+}
+
+.telegram_block h2 {
+    color: #FFF;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin: auto;
+    position: relative;
+    bottom: 2.5px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.block .hr_2 {
+    color: #ffffff;
+    width: 60%;
+    margin-top: 60px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.block_email {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.email_text {
+    position: relative;
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    position: relative;
+    top: 18px;
+}
+
+#email {
+    padding: 5px 10px 5px 10px;
+    width: 255px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    background: #1C2B32;
+
+}
+
+#email,
+label {
+    color: white;
+}
+
+.email_valid {
+    position: relative;
+    bottom: 15px;
+}
+
+.email_danger {
+    position: relative;
+    bottom: 15px;
+}
+
+.block_password {
+    margin: 0 auto;
+    text-align: left;
+}
+
+#password {
+    border-radius: 5px;
+    border: 1px solid #888;
+    width: 255px;
+    padding: 5px 10px 5px 10px;
+    background: #1C2B32;
+    height: 45px;
+
+}
+
+#password,
+label {
+    color: white;
+}
+
+.password_text {
+    position: relative;
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    position: relative;
+    top: 18px;
+}
+
+.password_valid {
+    position: relative;
+    bottom: 15px;
+}
+
+.password_danger {
+    position: relative;
+    bottom: 15px;
+}
+
+.chek_block {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.check_button {
+    margin-right: 5px;
+}
+
+
+.label_check {
+    position: relative;
+}
+
+.label {
+    display: none !important;
+}
+
+.button_login {
+    width: 235px;
+    height: 40px;
+    border-radius: 40px;
+    background: #477F99;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button_login h2 {
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: 10px;
+}
+
+.text_1 {
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    margin: 0 auto;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.text_1 a {
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-decoration-line: underline;
+    position: relative;
+
+}
+
+.block_or hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    width: 60%;
+
+}
+
+.text_2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 0 auto;
+    align-items: baseline;
+    margin-top: 15px;
+}
+
+.text_2 h1 {
+    color: #C4C4C4;
+    font-family: 'KulimPark-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.text_2 a {
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-decoration-line: underline;
+
+}
+
+@media(max-width: 1440px) {
+    header {
+        min-width: 1280px;
+        min-height: 75px;
+    }
+
+    main {
+        min-width: 1280px;
+    }
+
+    .social_blocks h2 {
+        font-size: 13.5px;
+    }
+}
+
+@media(max-width: 1100px) {
+    header {
+        min-width: 960px;
+        min-height: 80px;
+    }
+
+    main {
+        min-width: 960px;
+    }
+
+    .main_form {
+        width: 65%;
+    }
+
+    .main_form .login_logo {
+        font-size: 25px;
+    }
+
+    .social_blocks h2 {
+        font-size: 11px;
+    }
+
+
+    .google_block {
+        max-width: 42%;
+        min-width: 35%;
+    }
+
+    .google_block img {
+        width: 18px;
+        height: 18.025px;
+
+        position: relative;
+        top: 3px;
+    }
+
+    .google_block h2 {
+        position: relative;
+        left: 2px;
+    }
+
+    .facebook_block {
+        max-width: 42%;
+        min-width: 35%;
+    }
+
+    .facebook_block img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .facebook_block h2 {
+        position: relative;
+        left: 8px;
+    }
+
+    .telegram_block {
+        max-width: 42%;
+        min-width: 35%;
+    }
+
+    .telegram_block img {
+        width: 24px;
+        height: 26.295px;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .telegram_block h2 {
+        position: relative;
+        left: 5px;
+    }
+}
+
+@media(max-width:750px) {
+    header {
+        min-width: 480px;
+    }
+
+    main {
+        min-width: 480px;
+    }
+
+    .main_form {
+        width: 75%;
+    }
+
+    .main_form .login_logo {
+        font-size: 20px;
+    }
+
+    .social_blocks h2 {
+        font-size: 10px;
+    }
+
+    .google_block {
+        min-width: 52%;
+    }
+
+    .google_block img {
+        width: 18px;
+        height: 18.025px;
+        position: relative;
+        top: 3px;
+    }
+
+    .google_block h2 {
+        position: relative;
+        left: 5px;
+    }
+
+    .facebook_block {
+        min-width: 52%;
+    }
+
+    .facebook_block img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .facebook_block h2 {
+        position: relative;
+        left: 8px;
+    }
+
+    .telegram_block {
+        min-width: 52%;
+    }
+
+    .telegram_block img {
+        width: 24px;
+        height: 26.295px;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .telegram_block h2 {
+        position: relative;
+        left: 5px;
+    }
+
+    .block .hr_2 {
+        width: 65%;
+    }
+
+    .button_login h2 {
+        font-size: 13px;
+        position: relative;
+        top: 12px;
+    }
+
+    .block_or hr {
+        width: 65%;
+    }
+
+    .text_1 a {
+        font-size: 10px;
+    }
+
+    .text_2 h1 {
+        font-size: 10px;
+    }
+
+    .text_2 a {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:479px) {
+    header {
+        min-width: 350px;
+        min-height: 65px;
+    }
+
+    .main_hub_logo {
+        margin-left: 30px;
+    }
+
+    .hub_logo h1 {
+        font-size: 25px;
+    }
+
+    .cube_logo {
+        width: 45px;
+        height: 40px;
+    }
+
+    main {
+        min-width: 350px;
+        height: 1000px;
+    }
+
+    .main_form {
+        top: 50px;
+        width: 83%;
+        height: 85%;
+    }
+
+    .main_form .login_logo {
+        font-size: 15px;
+        padding-top: 60px;
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    .google_block {
+        min-width: 70%;
+    }
+
+    .google_block img {
+        width: 18px;
+        height: 18.025px;
+        position: relative;
+        top: 3px;
+        right: 8px;
+    }
+
+    .google_block h2 {
+        position: relative;
+        left: 5px;
+    }
+
+    .facebook_block {
+        min-width: 70%;
+    }
+
+    .facebook_block img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        right: 8px;
+    }
+
+    .facebook_block h2 {
+        position: relative;
+        left: 8px;
+    }
+
+    .telegram_block {
+        min-width: 70%;
+    }
+
+    .telegram_block img {
+        width: 24px;
+        height: 26.295px;
+        position: relative;
+        bottom: 2px;
+        right: 9px;
+    }
+
+    .telegram_block h2 {
+        position: relative;
+        left: 5px;
+    }
+
+    .block_email h3 {
+        font-size: 12px !important;
+    }
+
+    .email_valid {
+        font-size: 12px !important;
+    }
+
+    .email_danger {
+        font-size: 12px !important;
+    }
+
+    .block_password h3 {
+        font-size: 12px !important;
+    }
+
+    .password_danger {
+        font-size: 12px !important;
+    }
+
+    .password_valid {
+        font-size: 12px !important;
+    }
+
+
+    #email {
+        width: 100%;
+        height: 40px;
+    }
+
+    #email,
+    label {
+        color: white;
+        font-size: 14px;
+    }
+
+    #password {
+        width: 100%;
+        height: 40px;
+    }
+
+    #password,
+    label {
+        color: white;
+        font-size: 14px;
+    }
+    .form-check {
+        padding-left: 3em !important; 
+    }
+
+    .invalid-feedback {
+        margin-top: 0.15rem !important;
+        font-size: .675em !important;
+    }
+
+    .was-validated .form-check-input:invalid~.form-check-label {
+        font-size: 12px;
+    }
+
+    .button_login {
+        width: 45%;
+        height: 38px;
+        margin-top: 30px;
+    }
+
+    .button_login h2 {
+        font-size: 11px;
+    }
+
+    .block .hr_2 {
+        width: 78%;
+    }
+
+    .block_or hr {
+        width: 78%;
+    }
+
+    .text_1 a {
+        font-size: 8px;
+    }
+
+    .text_2 h1 {
+        font-size: 8px;
+    }
+
+    .text_2 a {
+        font-size: 8px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@font-face {
+    font-family: 'KulimPark-Regular';
+    src: url('./fonts/kulimpark-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/kulimpark-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/kulimpark-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/kulimpark-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/kulimpark-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/kulimpark-regular.svg#kulimpark-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Just Another Hand Regular';
+    src: url('./fonts/just_another_hand_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/just_another_hand_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/just_another_hand_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/just_another_hand_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/just_another_hand_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/just_another_hand_regular.svg#just_another_hand_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
